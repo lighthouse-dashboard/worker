@@ -1,7 +1,7 @@
-import connectDatabase from '../../core/src/db/connect-database';
-import { clearReports, removeOldReports } from '../../core/src/db/models/reports';
-import { setWorkerIsRunning, setWorkerLastRunDate } from '../../core/src/db/models/system';
-import logger from '../../core/src/logger';
+import connectDatabase from 'lighthouse-dashboard-core/src/db/connect-database';
+import { clearReports, removeOldReports } from 'lighthouse-dashboard-core/src/db/models/reports';
+import { setWorkerIsRunning, setWorkerLastRunDate } from 'lighthouse-dashboard-core/src/db/models/system';
+import logger from 'lighthouse-dashboard-core/src/logger';
 import { consumeQueue } from './handler';
 
 /**

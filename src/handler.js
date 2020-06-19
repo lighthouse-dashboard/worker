@@ -1,7 +1,7 @@
-import { getScheduledSites, setScheduledAuditForSite } from '../../core/src/db/models/sites';
-import connectDatabase from '../../core/src/db/connect-database';
-import logger from '../../core/src/logger';
-import { createNewAuditForConfig } from '../../core/src/utils/create-new-audit';
+import { getScheduledSites, setScheduledAuditForSite } from 'lighthouse-dashboard-core/src/db/models/sites';
+import connectDatabase from 'lighthouse-dashboard-core/src/db/connect-database';
+import logger from 'lighthouse-dashboard-core/src/logger';
+import { createNewAuditForConfig } from 'lighthouse-dashboard-core/src/utils/create-new-audit';
 
 /**
  * Start worker and connect to mq
