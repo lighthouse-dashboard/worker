@@ -1,6 +1,6 @@
 {
     "name": "lighthouse-dashboard-worker",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "App to keep track of your websites by showing their lighthouse results",
     "author": {
         "email": "faebeee@gmail.com",
