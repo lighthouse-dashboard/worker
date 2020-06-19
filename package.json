@@ -1,0 +1,22 @@
+{
+    "name": "@lighthouse-dashboard/worker",
+    "version": "0.1.0",
+    "private": true,
+    "description": "App to keep track of your websites by showing their lighthouse results",
+    "author": {
+        "email": "faebeee@gmail.com",
+        "name": "fabs",
+        "url": "https://www.fabs.io"
+    },
+    "repository": {
+        "url": "https://github.com/@lighthouse-dashboard/lighthouse-dashboard",
+        "type": "git"
+    },
+    "scripts": {
+    },
+    "main": "src/worker.js",
+    "engines": {
+        "node": ">= 12.0",
+        "npm": ">= 6.0.0"
+    }
+}
